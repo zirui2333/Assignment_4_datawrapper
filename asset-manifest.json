@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/zirui2333/Assignment_4_datawrapper/static/css/main.435d5fe5.chunk.css",
-    "main.js": "/zirui2333/Assignment_4_datawrapper/static/js/main.5da190ee.chunk.js",
-    "main.js.map": "/zirui2333/Assignment_4_datawrapper/static/js/main.5da190ee.chunk.js.map",
-    "runtime~main.js": "/zirui2333/Assignment_4_datawrapper/static/js/runtime~main.7829a7d0.js",
-    "runtime~main.js.map": "/zirui2333/Assignment_4_datawrapper/static/js/runtime~main.7829a7d0.js.map",
-    "static/js/2.ca150098.chunk.js": "/zirui2333/Assignment_4_datawrapper/static/js/2.ca150098.chunk.js",
-    "static/js/2.ca150098.chunk.js.map": "/zirui2333/Assignment_4_datawrapper/static/js/2.ca150098.chunk.js.map",
-    "static/js/3.940f5f6f.chunk.js": "/zirui2333/Assignment_4_datawrapper/static/js/3.940f5f6f.chunk.js",
-    "static/js/3.940f5f6f.chunk.js.map": "/zirui2333/Assignment_4_datawrapper/static/js/3.940f5f6f.chunk.js.map",
-    "index.html": "/zirui2333/Assignment_4_datawrapper/index.html",
-    "precache-manifest.9831729bcf244808c2c2301fd6083531.js": "/zirui2333/Assignment_4_datawrapper/precache-manifest.9831729bcf244808c2c2301fd6083531.js",
-    "service-worker.js": "/zirui2333/Assignment_4_datawrapper/service-worker.js",
-    "static/css/main.435d5fe5.chunk.css.map": "/zirui2333/Assignment_4_datawrapper/static/css/main.435d5fe5.chunk.css.map"
+    "main.css": "/Assignment_4_datawrapper/static/css/main.435d5fe5.chunk.css",
+    "main.js": "/Assignment_4_datawrapper/static/js/main.395c5bda.chunk.js",
+    "main.js.map": "/Assignment_4_datawrapper/static/js/main.395c5bda.chunk.js.map",
+    "runtime~main.js": "/Assignment_4_datawrapper/static/js/runtime~main.28239729.js",
+    "runtime~main.js.map": "/Assignment_4_datawrapper/static/js/runtime~main.28239729.js.map",
+    "static/js/2.ca150098.chunk.js": "/Assignment_4_datawrapper/static/js/2.ca150098.chunk.js",
+    "static/js/2.ca150098.chunk.js.map": "/Assignment_4_datawrapper/static/js/2.ca150098.chunk.js.map",
+    "static/js/3.940f5f6f.chunk.js": "/Assignment_4_datawrapper/static/js/3.940f5f6f.chunk.js",
+    "static/js/3.940f5f6f.chunk.js.map": "/Assignment_4_datawrapper/static/js/3.940f5f6f.chunk.js.map",
+    "index.html": "/Assignment_4_datawrapper/index.html",
+    "precache-manifest.90a1fd07d01dd88f3db31f762bb261cf.js": "/Assignment_4_datawrapper/precache-manifest.90a1fd07d01dd88f3db31f762bb261cf.js",
+    "service-worker.js": "/Assignment_4_datawrapper/service-worker.js",
+    "static/css/main.435d5fe5.chunk.css.map": "/Assignment_4_datawrapper/static/css/main.435d5fe5.chunk.css.map"
   }
 }
