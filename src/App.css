@@ -14,18 +14,30 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: (29, 30, 32);
+  min-height: 60vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: black;
 }
+
 
 .App-link {
   color: #61dafb;
+}
+
+.App-image{
+  min-height: 25vh;
+  display: flex;
+  flex-direction: column;
+    align-items: center;
+  /* background-image: url('google_logo.png'); */
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 @keyframes App-logo-spin {
@@ -34,5 +46,380 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+/* ÷       --------------- ------------------------------ ----------------------------- ----------------------------
+--------------- ----------------------------- ----------------------------- ----------------------------- ----------------------------- ----------------------------- ----------------------------- ----------------------------- ----------------------------- ----------------------------- ----------------------------- -------------- */
+
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+nav {
+  background-color: #333;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+nav div.left a,
+nav div.right a {
+  color: white;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+nav div.left a {
+  margin-left: 10px;
+}
+
+nav div.right a {
+  margin-left: 20px;
+  margin-right: 10px;
+}
+
+nav div a:hover {
+  color: #ccc;
+}
+
+
+@media screen and (max-width: 700px) {
+
+  nav div.left a,
+  nav div.right a {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  body {
+    background-color: rgb(29, 30, 32);
+  }
+
+  nav {
+    background-color: rgb(29, 30, 32);
+  }
+
+  nav div.left a,
+  nav div.right a {
+    color: lightgray;
+  }
+
+  div,
+  h1,
+  h2,
+  h4,
+  li,
+  span,
+  p {
+    color: lightgray;
+  }
+
+  .contact a img {
+    background-color: lightgray;
+  }
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin: 50px auto;
+  max-width: 800px;
+  font-size: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.contact a {
+  margin: 0 10px;
+}
+
+.contact a img {
+  width: 50px;
+}
+
+img.profile {
+  margin-top: 40px;
+  margin-bottom: 30px;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+}
+
+.project {
+  padding: 10px;
+  margin: 50px auto;
+  max-width: 800px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.project a img {
+  width: 300px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.project h2 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: yellowgreen;
+}
+
+.project h3 {
+  font-size: 20px;
+}
+
+/* Released project details */
+.Released {
+  display: flex;
+  align-items: center;
+}
+
+.text {
+  /* background-color: #ccc; */
+  padding: 10px;
+  margin: 50px auto;
+  max-width: 800px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.description {
+  text-align: center;
+}
+
+
+
+
+
+
+
+.GPA_container {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.GPA_table {
+  width: 100%;
+  /* border-collapse: collapse; */
+}
+
+.GPA_table th,
+.GPA_table td {
+  padding: 10px;
+  border: 2px solid white;
+}
+
+.error {
+  border: 2px solid red;
+  background-color: rgba(255, 0, 0, 0.1);
+}
+
+.button-container {
+  width: 100%;
+}
+
+.GPA_input.add_row {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+.GPA_input.add_row:hover {
+  background-color: #0056b3;
+}
+
+.GPA_input.break {
+  background-color: lightcoral;
+  width: 95%;
+  padding: 20px;
+  margin-top: 10px;
+  border-radius: 4px;
+}
+
+.GPA_input.calculate,
+.GPA_input.reset {
+  font-size: 15px;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 4px;
+  border: none;
+  color: white;
+}
+
+.GPA_input.calculate:hover {
+  background-color: darkgreen;
+}
+
+.GPA_input.calculate {
+  background-color: green;
+}
+
+.GPA_input.reset:hover {
+  background-color: darkgray;
+}
+
+.GPA_input.reset {
+  background-color: gray;
+}
+
+.GPA_input.gpa_output {
+  padding: 40px;
+  background-color: white;
+  width: 95%;
+  border-radius: 4px;
+  margin-top: 10px;
+  display: block;
+}
+
+.GPA_table td input {
+  font-size: 16px;
+  border-radius: 4px;
+  padding: 15px;
+  border: none;
+}
+
+.grade_input {
+  padding: 12px;
+  width: 95%;
+  font-size: 17px;
+  border: none;
+  outline: none;
+}
+
+.credit_input {
+  padding: 12px;
+  width: 80%;
+}
+
+@media screen and (max-width: 1000px) {
+  .GPA_table td input {
+    background-color: #333;
+  }
+
+  .GPA_input.add_row {
+    background-color: goldenrod;
+  }
+
+  .GPA_input.add_row:hover {
+    background-color: darkgoldenrod;
+  }
+
+  .GPA_input.break {
+    background-color: Teal
+  }
+
+  .GPA_input.gpa_output {
+    background-color: #333;
+  }
+
+  .GPA_table th,
+  .GPA_table td {
+    border: 2px solid gray;
+  }
+
+  .GPA_input.check_mark {
+    background-color: gray;
+    color: gray;
+  }
+
+  .grade_input {
+    background-color: #333;
+    color: gold;
+  }
+
+  .credit_input {
+    color: gold;
+  }
+}
+
+
+
+
+
+
+.nav-links {
+  display: flex;
+}
+
+.hamburger {
+  margin-right: 20px;
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.hamburger div {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  margin: 4px 0;
+}
+
+/* Responsive styling: Hide nav links on small screens */
+@media (min-width: 1001px) {
+  .nav-links {
+    display: flex;
+  }
+
+  .hamburger {
+    display: none;
+  }
+}
+
+@media (max-width: 1000px) {
+  .datawrapper-chart-container{
+    background-color: #fa8072;
+    color: #ff4500;
+  }
+
+ 
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    background-color: #333;
+    position: absolute;
+    top: 50px;
+    left: 0;
+  }
+
+  .nav-links a {
+    padding: 10px;
+    border-top: 1px solid #444;
+  }
+
+  .hamburger {
+    display: flex;
   }
 }
