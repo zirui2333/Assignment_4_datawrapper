@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Assignment_4_datawrapper/static/css/main.86a0d698.chunk.css",
-    "main.js": "/Assignment_4_datawrapper/static/js/main.3dfac82a.chunk.js",
-    "main.js.map": "/Assignment_4_datawrapper/static/js/main.3dfac82a.chunk.js.map",
-    "runtime~main.js": "/Assignment_4_datawrapper/static/js/runtime~main.28239729.js",
-    "runtime~main.js.map": "/Assignment_4_datawrapper/static/js/runtime~main.28239729.js.map",
-    "static/js/2.ca150098.chunk.js": "/Assignment_4_datawrapper/static/js/2.ca150098.chunk.js",
-    "static/js/2.ca150098.chunk.js.map": "/Assignment_4_datawrapper/static/js/2.ca150098.chunk.js.map",
-    "static/js/3.940f5f6f.chunk.js": "/Assignment_4_datawrapper/static/js/3.940f5f6f.chunk.js",
-    "static/js/3.940f5f6f.chunk.js.map": "/Assignment_4_datawrapper/static/js/3.940f5f6f.chunk.js.map",
+    "main.css": "/Assignment_4_datawrapper/static/css/main.627bf015.chunk.css",
+    "main.js": "/Assignment_4_datawrapper/static/js/main.ebe7ece2.chunk.js",
+    "main.js.map": "/Assignment_4_datawrapper/static/js/main.ebe7ece2.chunk.js.map",
+    "runtime~main.js": "/Assignment_4_datawrapper/static/js/runtime~main.c56e3bda.js",
+    "runtime~main.js.map": "/Assignment_4_datawrapper/static/js/runtime~main.c56e3bda.js.map",
+    "static/js/2.6bcd01f1.chunk.js": "/Assignment_4_datawrapper/static/js/2.6bcd01f1.chunk.js",
+    "static/js/2.6bcd01f1.chunk.js.map": "/Assignment_4_datawrapper/static/js/2.6bcd01f1.chunk.js.map",
+    "static/js/3.1629fdc3.chunk.js": "/Assignment_4_datawrapper/static/js/3.1629fdc3.chunk.js",
+    "static/js/3.1629fdc3.chunk.js.map": "/Assignment_4_datawrapper/static/js/3.1629fdc3.chunk.js.map",
     "index.html": "/Assignment_4_datawrapper/index.html",
-    "precache-manifest.b6762a64466a1515120e6a24132aec5b.js": "/Assignment_4_datawrapper/precache-manifest.b6762a64466a1515120e6a24132aec5b.js",
+    "precache-manifest.8edb92060885db9aa6351e0ab95a5a8e.js": "/Assignment_4_datawrapper/precache-manifest.8edb92060885db9aa6351e0ab95a5a8e.js",
     "service-worker.js": "/Assignment_4_datawrapper/service-worker.js",
-    "static/css/main.86a0d698.chunk.css.map": "/Assignment_4_datawrapper/static/css/main.86a0d698.chunk.css.map"
+    "static/css/main.627bf015.chunk.css.map": "/Assignment_4_datawrapper/static/css/main.627bf015.chunk.css.map"
   }
 }
