@@ -29,11 +29,11 @@
   color: #61dafb;
 }
 
-.App-image{
+.App-image {
   min-height: 25vh;
   display: flex;
   flex-direction: column;
-    align-items: center;
+  align-items: center;
   /* background-image: url('google_logo.png'); */
   background-size: auto;
   background-repeat: no-repeat;
@@ -44,6 +44,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
@@ -133,6 +134,7 @@ nav div a:hover {
   .contact a img {
     background-color: lightgray;
   }
+
 }
 
 .contact {
@@ -397,12 +399,12 @@ img.profile {
 }
 
 @media (max-width: 1000px) {
-  .datawrapper-chart-container{
+  .datawrapper-chart-container {
     background-color: #fa8072;
     color: #ff4500;
   }
 
- 
+
   .nav-links {
     display: none;
     flex-direction: column;
@@ -422,4 +424,118 @@ img.profile {
   .hamburger {
     display: flex;
   }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* // App.css */
+/* Add this CSS */
+.calendar-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.month {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.days {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 5px;
+  margin-top: 10px;
+}
+
+.day-block {
+  width: 10px;
+  height: 10px;
+  border-radius: 0px;
+  /* cursor: pointer; */
+  transition: transform 0.2s;
+  background-color: green;
+}
+
+@media screen and (max-width: 1000px) {
+  .day-block {
+    background-color: darkgoldenrod;
+  }
+}
+
+.day-block:hover {
+  transform: scale(1.2);
+}
+
+.tooltip {
+  position: fixed;
+  background: #000;
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 4px;
+  font-size: 12px;
+  z-index: 1000;
+  pointer-events: none;
+  transform: translate(-50%, -100%);
+  transition: opacity 0.15s ease-in-out;
+  width: 250px;
+}
+
+@media (max-width: 768px) {
+  .calendar-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .calendar-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+
+
+
+.tooltip-content {
+  text-align: left;
+  white-space: normal;
+  /* Allows text wrapping */
+}
+
+.weather-info,
+.weather-notice,
+.weather-rating {
+  margin: 5px 0;
+  text-align: left;
+}
+
+.weather-label {
+  font-weight: bold;
 }
